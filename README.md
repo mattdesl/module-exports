@@ -11,11 +11,11 @@ process.stdin.pipe(stream()).pipe(process.stdout)
 
 Example input:
 
-```"foo"```
+`"foo"`
 
 Output:
 
-```module.exports = "foo";```
+`module.exports = "foo";`
 
 ## Usage
 
@@ -33,7 +33,7 @@ Options:
 
 You can also use this as a standalone CLI:
 
-```npm i module-exports -g```
+`npm i module-exports -g`
 
 ```
 Usage: module-exports input
