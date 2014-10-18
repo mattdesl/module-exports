@@ -23,7 +23,7 @@ Output:
 
 #### `stream([options])`
 
-Returns a transform stream that prefixes the input with `module.exports =`, and suffixes with an optional semicolon `;`.
+Returns a transform stream that prefixes the input with `"module.exports"`, and suffixes with an optional semicolon `;`.
 
 Options:
 
